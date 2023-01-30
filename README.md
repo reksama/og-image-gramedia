@@ -1,4 +1,11 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# OG Image Generator
+![product](https://user-images.githubusercontent.com/117131814/215409961-f3b4f5ad-8a70-4ad8-88ad-60febb851828.png)
+
+### Demo
+Slug: 
+- /api/og/product?slug=jujutsu-kaisen-05
+- /api/og/product?slug=laut-bercerita
+- /api/og/product?slug=sebuah-seni-untuk-bersikap-bodo-amat-edisi-handy
 
 ## Getting Started
 
