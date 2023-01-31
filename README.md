@@ -2,10 +2,19 @@
 ![product](https://user-images.githubusercontent.com/117131814/215409961-f3b4f5ad-8a70-4ad8-88ad-60febb851828.png)
 
 ## Demo
-Example slug: 
-- [?slug=jujutsu-kaisen-05](https://og-image-gramedia-production.up.railway.app/api/og/product?slug=jujutsu-kaisen-05)
-- [?slug=laut-bercerita](https://og-image-gramedia-production.up.railway.app/api/og/product?slug=laut-bercerita)
-- [?slug=sebuah-seni-untuk-bersikap-bodo-amat-edisi-handy](https://og-image-gramedia-production.up.railway.app/api/og/product?slug=sebuah-seni-untuk-bersikap-bodo-amat-edisi-handy)
+Example:
+
+| Query           | Desc                                                          | Example                                                                  |
+|-----------------|---------------------------------------------------------------|--------------------------------------------------------------------------|
+| img             | Image product                                                 | https://cdn.gramedia.com/uploads/items/9786230029783_Jujutsukaisen_5.jpg |
+| writer          | Writer product name                                           | Gege Akutami                                                             |
+| title           | Product name                                                  | Jujutsu Kaisen 05                                                        |
+| isDiscount      | If product is discount, put 'true' if not 'false'             | true                                                                     |
+| actualPrice     | Actual price product                                          | Rp. 40.000                                                               |
+| discountedPrice | If product is discount, put the discounted price if not empty | Rp. 30.000                                                               |
+| discount        | If product is discount, put the discount value if not empty   | 25 %                                                                     |
+| publisher       | Publisher name                                                | Elex Media Komputindo                                                    |
+
 
 ## Introductions
 Generate OG Image dynamically based on the product slug passed in the query url.
