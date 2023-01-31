@@ -1,5 +1,5 @@
 # OG Image Generator
-![product](https://user-images.githubusercontent.com/117131814/215409961-f3b4f5ad-8a70-4ad8-88ad-60febb851828.png)
+![product juju](https://user-images.githubusercontent.com/117131814/215652792-e0ed802f-4fed-4edf-8c54-ad819460c05c.png)
 
 ## Demo
 Example:
@@ -15,9 +15,13 @@ Example:
 | discount        | If product is discount, put the discount value if not empty   | 25 %                                                                     |
 | publisher       | Publisher name                                                | Elex Media Komputindo                                                    |
 
+Example URL:
+- [Sebuah seni untuk bersikap bodoh](https://og-image-gramedia-production.up.railway.app/api/og/product?img=https://upload.wikimedia.org/wikipedia/commons/4/4b/Sebuah-seni-untuk-bersikap-bodoh-amat.jpg&writer=Mark%20Manson&title=Sebuah%20Seni%20untuk%20Bersikap%20Bodo%20Amat%20(edisi%20handy)&isDiscount=true&actualPrice=Rp.%2078.000&discountedPrice=Rp.%2058.500&discount=25%20%&publisher=Gramedia%20Widiasarana%20Indonesia)
+
+- [Jujutsu Kaisen 05](https://og-image-gramedia-production.up.railway.app/api/og/product?img=https://cdn.gramedia.com/uploads/items/9786230029783_Jujutsukaisen_5.jpg&writer=Gege%20Akutami&title=Jujutsu%20Kaisen%2005&isDiscount=true&actualPrice=Rp.%2040.000&discountedPrice=Rp.%2030.000&discount=25%20%&publisher=Elex%20Media%20Komputindo)
 
 ## Introductions
-Generate OG Image dynamically based on the product slug passed in the query url.
+Generate OG Image dynamically based on the query in the url.
 
 Using [Next JS](https://nextjs.org/) as base and [Vercel/OG](https://vercel.com/docs/concepts/functions/edge-functions/og-image-generation) to generate HTML, CSS and JS, (you can even use Tailwind) to create or generate images.
 
@@ -32,7 +36,7 @@ Without custom image:
 
 With custom generated image:
 
-![Screen Shot 2023-01-30 at 14 48 59](https://user-images.githubusercontent.com/117131814/215419849-ba26cfba-de6d-4e53-95f1-ecdb32425c71.png)
+![Screen Shot 2023-01-31 at 10 09 29](https://user-images.githubusercontent.com/117131814/215653335-eded2ebf-5246-4ba5-b1db-059c50063d35.png)
 
 ### Getting Started
 
